@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #1f2937;
+	background-color: #f9fafb;
+}
+
+.header {
+		width: 100%;
+		padding: 20px 8%;
+		background-color: white;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+}
+
+.logo {
+	color: rgba(68, 183, 189, 0.9);
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #374151;
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+.navbar a:hover {
+	color: red;
+}
+
+.hero {
+	min-height: 85vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.pinimg.com/736x/f6/ae/12/f6ae1295bd12bbf31a5c2caeab43e81e.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	padding: 0 8%;
+	color: white;
+}
+
+.hero-content {
+	max-width: 650px;
+}
+
+.tagline {
+	font-size: 18px;
+	margin-bottom: 15px;
+	color: rgba(68, 183, 189, 0.9);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.hero h1 {
+	font-size: 56px;
+	margin-bottom: 30px;
+}
+
+.description {
+	font-size: 18px;
+	line-height: 1.7;
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: white;
+	color: #2563eb;
+	padding: 14px 28px;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn:hover {
+	background-color: #dbeafe;
+}
+
+.about {
+	padding: 70px 8%;
+	text-align: center;
+	background: white;
+}
+
+.about h2, .schedule h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #111827;
+}
+
+.about p {
+	max-wdith: 750px;
+	margin: auto;
+	line-height: 1.8;
+	font-size: 18px;
+}
+
+.features {
+	padding: 70px 8%;
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 35px;
+    width: 300px;
+    border-radius: 16px;
+}
+
+.card:hover {
+	box-shadow: 
+    0 10px 15px rgba(50, 50, 168, 1.4), 
+    0 20px 25px rgba(168, 50, 158, 1.4);
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.pinimg.com/736x/f6/ae/12/f6ae1295bd12bbf31a5c2caeab43e81e.jpg");
+	background-size: cover;
+	color: white;
+}
+
+.card h3 {
+	color: #2563eb;
+	margin-bottom: 15px;
+}
+
+.card p {
+	line-height:1.6;
+}
+
+/* Container and Section Styling */
+.price {
+    padding: 70px 8%;
+    text-align: center;
+    background-color: #f1f5f9; /* Soft light gray/blue background */
+    font-family: Arial, sans-serif;
+}
+
+.price h2 {
+    color: #0f172a;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.price-box {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Adds the soft card shadow */
+}
+
+/* Table Layout */
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+/* Header Row Styling */
+.price-table thead tr {
+    background-color: #e0f2fe; /* Light teal/blue header background */
+}
+
+.price-table th {
+    padding: 14px 20px;
+    color: #0d9488; /* Teal text color */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Table Body Styling */
+.price-table td {
+    padding: 20px;
+    font-size: 14px;
+    color: #475569; /* Slate gray for features text */
+    border-bottom: 1px solid #f1f5f9; /* Thin separator line */
+}
+
+/* Remove border on the last row */
+.price-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Specific Column Styling */
+.cube-type {
+    font-weight: bold;
+    color: #1e293b;
+    width: 25%;
+}
+
+.base-price {
+    color: #334155;
+    width: 15%;
+}
+
+.footer {
+	background-color: #111827;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	
+}
